@@ -1,0 +1,18 @@
+h1 {
+	color: red;
+/*	border-color: purple;
+	border-width: 5;
+	border-style: solid;*/
+	border: 2px dashed rgb(255,100,80);
+}
+h4 {
+	background: rgb(255,100,80);
+}
+/*body{
+	background: url(https://cdn3.volusion.com/qz29d.hncd6/v/vspfiles/photos/TTL-742-2.jpg?v-cache=1497438653);
+	background-repeat: no-repeat;
+	background-size: cover; 
+}*/
+body {
+	background: pink;
+}
