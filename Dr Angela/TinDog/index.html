@@ -10,7 +10,8 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Ubuntu:wght@300;400;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="css/styles.css">
+    <script src="https://use.fontawesome.com/releases/v5.13.1/js/all.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -41,11 +42,11 @@
       <div class="row">
         <div class="col-lg-6">
           <h1 class="meetDogs">Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <button class="btn btn-dark btn-lg downloadButton" type="button"><i class="fab fa-apple"></i> Download</button>
+          <button class="btn btn-outline-light btn-lg downloadButton"type="button"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-lg-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img src="images/iphone6.png" alt="iphone-mockup" class="titleImage">
         </div>
       </div>
     </div>
@@ -54,16 +55,26 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section class="row" id="features">
+    <div class="featureItem col-md-4">
+      <i class="fas hover fa-check-circle"></i>
+      <h3 class="featureItemHeading">Easy to use.</h3>
+      <p class="featureItemText">So easy to use, even your dog could do it.</p>
+    </div>
+    <div class="featureItem col-md-4">
+      <i class="fas hover fa-bullseye"></i>
+      <h3 class="featureItemHeading">Elite Clientele</h3>
+      <p class="featureItemText">We have all the dogs, the greatest dogs.</p>      
+    </div>
+    <div class="featureItem col-md-4">
+      <i class="fas hover fa-heart"></i>
+      <h3 class="featureItemHeading">Guaranteed to work.</h3>
+      <p class="featureItemText">Find the love of your dog's life or your money back.</p>      
+    </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+
 
   </section>
 

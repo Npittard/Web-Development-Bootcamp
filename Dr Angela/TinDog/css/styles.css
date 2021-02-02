@@ -1,12 +1,85 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
 #title {
   background-color: #ff4c68;
+  color: white;
 }
 .meetDogs {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 .container-fluid{
     padding: 3% 15%;
 }
+
+/* navbar */
+.navbar{
+  padding: 0 0 4.5rem;
+}  
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+
+/* download buttons */
+ .downloadButton{
+   margin: 5% 3% 5% 0;
+ }
+
+ /* title image */
+
+ .titleImage{
+   width: 60%;
+   transform: rotate(25deg);
+ }
+
+ .fa-check-circle{
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: ;
+ }
+ .fa-heart{
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: ;
+ }
+ .fa-bullseye{
+    color: #ef8172;
+    font-size: 4rem;
+    padding-bottom: ;
+ }
+
+ .featureItem{
+   padding: 5%;
+   text-align: center;
+ }
+ .featureItemHeading{
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+ }
+ .featureItemText{
+  color: #8f8f8f;
+ }
+
+ .hover:hover{
+   color: #ff4c68;
+ }
+ #features{
+   padding: 7% 15%;
+ }
